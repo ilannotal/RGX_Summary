@@ -105,8 +105,11 @@ def process_sheet(input_file, input_sheet, output_sheet):
 # File and sheet information
 file_path = r"\\172.17.102.175\Algorithm\Ilan\RGX\RGX_summary_20250113.xlsx"
 
-# Process first sheet
-process_sheet(file_path, 'RGX-314-2103_RawData', 'RGX-314-2103_Summary')
+# # Process first sheet
+# process_sheet(file_path, 'RGX-314-2103_RawData', 'RGX-314-2103_Summary')
+#
+# # Process second sheet
+# process_sheet(file_path, 'RGX-314-5101_RawData', 'RGX-314-5101_Summary')
 
-# Process second sheet
-process_sheet(file_path, 'RGX-314-5101_RawData', 'RGX-314-5101_Summary')
+# Process 3rd sheet
+process_sheet(file_path, 'AO_RawData', 'AO_Summary')
